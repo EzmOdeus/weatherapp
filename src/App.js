@@ -25,7 +25,8 @@ class App extends Component {
     console.log(data);
     if (city && country) {
       this.setState({
-        temprature: Math.round(data.main.temp / 12.44),
+        temprature: Math.round
+        (data.main.temp / 12.44),
         city: data.name,
         country: data.sys.country,
         hudit: data.main.humidity,
