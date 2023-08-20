@@ -47,7 +47,7 @@ class App extends Component {
     return (
       <div className="App">
 
-              Weather app weelcome
+         
               <Form getweather={this.getweather} />
               <Weather
                 city={this.state.city}
